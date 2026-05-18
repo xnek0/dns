@@ -391,6 +391,8 @@ listener 0.0.0.0:443 {
 table http_hosts {
     .*\.brawlstars\.com$ *
     brawlstars\.com$ *
+    .*\.brawlstarsgame\.com$ *
+    brawlstarsgame\.com$ *
     .*\.supercell\.com$ *
     supercell\.com$ *
     .*\.supercell\.net$ *
@@ -466,7 +468,11 @@ table http_hosts {
 
 table https_hosts {
     .*\.brawlstars\.com$ *
+    brawlstars\.com$ *s
+    .*\.brawlstars\.com$ *
     brawlstars\.com$ *
+    .*\.brawlstarsgame\.com$ *
+    brawlstarsgame\.com$ *
     .*\.supercell\.com$ *
     supercell\.com$ *
     .*\.supercell\.net$ *
