@@ -1,7 +1,7 @@
 # SmartDNS - CoreDNS Configuration
 # Перенаправление DNS запросов на SNI Proxy для обхода блокировок
 
-# ⚠️ ВАЖНО: Замени YOUR_SERVER_IP на реальный IP твоего VPS!
+# ⚠️ ВАЖНО: Замени 138.124.104.93 на реальный IP твоего VPS!
 # Например: 185.123.45.67
 
 . {
@@ -20,43 +20,43 @@
     
     # --- Brawl Stars ---
     template IN A game.brawlstars.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A event.brawlstars.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A brawlstars.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Supercell ---
     template IN A supercell.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A id.supercell.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A game.supercellid.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A csv.game.supercellid.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A prod.gamesconfiguration.supercell.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A api-assets.supercell.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Clash of Clans ---
     template IN A clashofclans.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Clash Royale ---
     template IN A clashroyale.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # ═══════════════════════════════════════════════════════════
@@ -65,52 +65,52 @@
     
     # --- Instagram ---
     template IN A instagram.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A i.instagram.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A graph.instagram.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Facebook ---
     template IN A facebook.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A fb.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A connect.facebook.net {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Twitter / X ---
     template IN A twitter.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A x.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A api.twitter.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A api.x.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A abs.twimg.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A pbs.twimg.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A t.co {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Threads ---
     template IN A threads.net {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # ═══════════════════════════════════════════════════════════
@@ -119,27 +119,27 @@
     
     # --- Discord ---
     template IN A discord.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A discordapp.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A discord.gg {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A cdn.discordapp.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A gateway.discord.gg {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A media.discordapp.net {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- LinkedIn ---
     template IN A linkedin.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # ═══════════════════════════════════════════════════════════
@@ -148,28 +148,28 @@
     
     # --- Spotify ---
     template IN A spotify.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A spclient.wg.spotify.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A apresolve.spotify.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- SoundCloud ---
     template IN A soundcloud.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Netflix ---
     template IN A netflix.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Twitch ---
     template IN A twitch.tv {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # ═══════════════════════════════════════════════════════════
@@ -178,60 +178,60 @@
     
     # --- OpenAI / ChatGPT ---
     template IN A openai.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A chat.openai.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A api.openai.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Notion ---
     template IN A notion.so {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A notion.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Medium ---
     template IN A medium.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Patreon ---
     template IN A patreon.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- BBC ---
     template IN A bbc.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A bbc.co.uk {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- Archive.org ---
     template IN A archive.org {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A web.archive.org {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- ProtonMail ---
     template IN A protonmail.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     template IN A proton.me {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # --- PayPal ---
     template IN A paypal.com {
-        answer "{{ .Name }} 60 IN A YOUR_SERVER_IP"
+        answer "{{ .Name }} 60 IN A 138.124.104.93"
     }
     
     # ═══════════════════════════════════════════════════════════
